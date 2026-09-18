@@ -26,7 +26,7 @@ int main() {
       printf("%s\n", token);
       token = strtok_r(NULL, " ", &saveptr);
     }
-    free(buff);
-    return 0;
   }
+  free(buff);
+  return 0;
 }
